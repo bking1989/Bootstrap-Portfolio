@@ -2,13 +2,13 @@
 
 @media (min-width: 1200px) {
     .container{
-        min-width: 960px;
+        width: 960px;
     }
 }
 
 @media (min-width: 992px) {
     .container{
-        min-width: 960px;
+        width: 960px;
     }
 }
 
@@ -20,6 +20,12 @@ body{
     width: 100%;
 }
 
+.container{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
 /* Header / Navigation Code */
 
 .nav-custom{
@@ -27,7 +33,25 @@ body{
     -webkit-box-sizing: content-box;
     border-bottom: #cccccc solid 2px;
     box-sizing: content-box;
+    margin: 0px;
     min-height: 90px;
+    padding: 0px;
+}
+
+.brand-custom{
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.brand-custom h1{
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 90px;
+    margin: 0px;
+    padding: 0 1.5em;
 }
 
 /* Middle Container Custom */
