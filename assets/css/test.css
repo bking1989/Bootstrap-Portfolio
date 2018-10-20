@@ -1,0 +1,52 @@
+/* Media Queries */
+
+@media (min-width: 1200px) {
+    .container{
+        min-width: 960px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        min-width: 960px;
+    }
+}
+
+/* Body */
+
+body{
+    background-image: url('../images/background.png');
+    height: 100%;
+    width: 100%;
+}
+
+/* Header / Navigation Code */
+
+.nav-custom{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    border-bottom: #cccccc solid 2px;
+    box-sizing: content-box;
+    min-height: 90px;
+}
+
+/* Middle Container Custom */
+
+.container-custom{
+    margin: 35px auto;
+}
+
+/* Footer Code */
+
+.footer-custom{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background: #666666;
+    border-top: #4aaaa5 solid 8px;
+    bottom: 0;
+    box-sizing: content-box;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+}
