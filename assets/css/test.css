@@ -1,0 +1,49 @@
+/* Body Code */
+
+body{
+    background-image: url('../images/background.png');
+}
+
+/* Header Code */
+
+.navbar-custom{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    border-color: #cccccc!important;
+    border-width: 2px!important;
+    box-sizing: content-box;
+}
+
+/* Content Area Code */
+
+.container-custom{
+    border: #dddddd solid 1px;
+}
+
+/* Footer Code */
+
+.footer-custom{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background-color: #777777;
+    border-top: #4aaaa5 solid 8px;
+    box-sizing: content-box;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 992px) {
+    .container{
+        width: 960px!important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 960px!important;
+    }
+}
