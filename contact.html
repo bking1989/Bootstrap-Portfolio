@@ -30,16 +30,29 @@
     </nav>
     <div class="flex-fill w-100">
         <div class="container container-custom container-fluid bg-white mb-5 mt-5 p-0">
-            <h2 class="font-weight-bold ml-4 mr-4 pb-4 pt-4">About</h2>
+            <h2 class="font-weight-bold ml-4 mr-4 pb-4 pt-4">Contact</h2>
             <br>
-            <div class="row mb-4 ml-4 mr-4">
-                <div class="col-sm-3">
-                    <img class="float-left img-thumbnail mb-4 rounded" src="assets/images/personal.jpg" alt="Personal Picture of Developer">
+            <form>
+                <div class="form-group">
+                    <div class="row mb-4 ml-4 mr-4">
+                        <label class="label-custom" for="nameForm">Name</label>
+                        <input type="text" class="form-control form-control-custom" id="nameInput" aria-describedby="nameForm" placeholder="John Doe">
+                    </div>
+                    <div class="row mb-4 ml-4 mr-4">
+                        <label class="label-custom" for="emailForm">Email</label>
+                        <input type="email" class="form-control form-control-custom" id="emailInput" aria-describedby="emailForm" placeholder="jdoe@email.com">
+                    </div>
+                    <div class="row ml-4 mr-4">
+                        <label class="label-custom" for="messageForm">Message</label>
+                    </div>
+                    <div class="row mb-4 ml-4 mr-4">
+                        <textarea class="form-control-custom rounded" rows=6" id="messageInput" aria-describedby="messageForm"></textarea>
+                    </div>
+                    <div class="row mb-5 ml-4 mr-4">
+                        <button type="submit" class="btn text-white" style="background-color: #4aaaa5;">Submit</button>
+                    </div>
                 </div>
-                <div class="col-sm-9">
-                    <p>My name is Bradley King, and I am an in-training web developer with experience in HTMl, CSS, and JavaScript (primarily jQuery). This is my portfolio, where you can find a collection of my past projects and my contact information.</p>
-                    <p>Although I am working in web development, now, I worked for a number of years in the insurance claims industry as an adjuster for rental car companies. I also attended four years of undergraduate studies at the George Washington University, in Washington, DC. I finished with a bachelor's degree in international affairs and political science, with an emphasis in comparative governments. Outside of work and education, I enjoy traveling, movies, video games (primarily on the PC), and photography.</p>
-                </div>
+            </form>
             </div>
         </div>
     </div>
