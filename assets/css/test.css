@@ -61,6 +61,12 @@ ul.navbar-nav li:nth-of-type(even){
     line-height: 28px;
 }
 
+.container-custom figcaption{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
 /* Footer Code */
 
 .footer-custom{
