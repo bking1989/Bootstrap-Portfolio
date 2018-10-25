@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body class="d-flex flex-column">
-    <nav class="navbar navbar-custom navbar-expand-md navbar-light bg-white m-0 p-0 w-100">
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-light bg-white m-0 p-0 w-100">
         <div class="container container-fluid p-0">
             <a class="navbar-brand navbar-brand-custom m-0 p-0">
                 <h2 class="font-weight-bold m-0 pl-5 pr-5 text-white">Bradley King</h2>
@@ -46,6 +46,7 @@
                         <label class="label-custom" for="messageForm">Message</label>
                     </div>
                     <div class="row mb-4 ml-4 mr-4">
+                        <!-- Bootstrap doesn't allow you to enlarge <textarea> elements horizontally because it often breaks page layouts. (Source: https://getbootstrap.com/docs/4.1/content/reboot/#forms)   -->
                         <textarea class="form-control-custom rounded" rows=6" id="messageInput" aria-describedby="messageForm"></textarea>
                     </div>
                     <div class="row mb-5 ml-4 mr-4">
